@@ -1,0 +1,160 @@
+
+.msg-form{
+    max-width: 900px;
+    margin: 0 auto;
+    border: gray 3px solid;
+    overflow: hidden;
+    resize: none;
+}
+
+#message{
+    margin: 1em 1em 0 3em;
+    padding: .5em;
+    max-width: 900px;
+    width: 90%;
+    white-space:nowrap;
+    height: 200px;
+    max-height: 200px;
+    resize: none;
+    overflow: auto;
+}
+
+.overflow{
+    height: 250px;
+    resize: none;
+}
+
+
+/* animations  */
+
+.msg-field::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: rgb(0, 187, 146);
+    transform: scaleX(0);
+    transform-origin: 0%;
+    opacity: 0;
+    transition: all 500ms ease;
+    top: 2px;
+}
+.msg-field .label,
+.input:not(:placeholder-shown) + .label {
+    transform: scale(0.8) translateY(-5rem);
+    opacity: 1;
+}
+
+.msg-field:focus-within{
+    border-color: transparent;
+}
+
+.msg-field:focus-within::after{
+    transform: scaleX(1);
+    opacity: 1;
+}
+/* name section */
+
+
+
+/* for animation */
+
+form{
+    --text-color: rgb(78, 78, 78);
+    max-width: 900px;
+    margin: 0 auto;
+}
+.pass-email-field {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    border-bottom:2px dashed gray ;
+    margin: 4rem auto 1rem;
+}
+.label {
+    color: var(--text-color);
+    font-size: 1.2rem;
+    bottom: -1.5em;
+}
+
+.input {
+    outline: none;
+    border: none;
+    overflow: hidden;
+    margin: 0;
+    width: 90%;
+    padding: 0.25rem 0;
+    background: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: border 500ms;
+}
+
+.input:valid{
+    color: yellowgreen;
+}
+
+.input:invalid{
+    color: rgb(205, 125, 50);
+}
+
+/*Border animation */
+
+
+.pass-email-field::after{
+    content: "";
+    position: relative;
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: var(--main-color);
+    transform: scaleX(0);
+    transform-origin: 0%;
+    opacity: 0;
+    transition: all 500ms ease;
+    top: 2px;
+}
+
+.pass-email-field:focus-within{
+    border-color: transparent;
+}
+
+.pass-email-field:focus-within::after{
+    transform: scaleX(1);
+    opacity: 1;
+}
+
+.label {
+    z-index: -1;
+    position: absolute;
+    transform: translateY(-2rem);
+    transform-origin: 0%;
+    transition: transform 400ms ;
+}
+
+.pass-email-field:focus-within .label,
+.input:not(:placeholder-shown) + .label {
+    transform: scale(0.8) translateY(-5rem);
+    opacity: 1;
+}
+
+.form-btn{
+    padding: .5em;
+    border: 5px solid var(--bg-rd);
+    color: var(--main-color);
+    background: var(--bg-sd);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 40%;
+}
+.form-btn:hover{
+    background: var(--bg);
+}
+.forcenter{
+    text-align: center;
+    margin: 0 auto;
+    
+}
