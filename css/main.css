@@ -230,7 +230,7 @@ body{
 /* end hover link */
 
 .project-discription{
-    margin:0  1rem;
+    margin:0 1rem;
 }
 
 .project-discription h2{
@@ -277,6 +277,7 @@ body{
 .project2{
     display: flex;
     margin: 2em 0;
+    justify-content: flex-end;
 }
 
 @media (max-width:800px){
@@ -387,7 +388,7 @@ footer ul li a{
 .footer-section-container{
     display: flex;
     justify-content: space-between;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 2rem auto;
 }
 
@@ -443,7 +444,7 @@ footer ul li a{
 }
 
 .footer-section2 a{
-    max-width: 150px;
+    max-width: 250px;
     padding: 0 .5em;
     width: 95%;
     margin-top: 1em;
@@ -659,12 +660,3 @@ footer ul li a{
     margin: 0;
     padding: 0;
 } */
-
-.project-p h4{
-    margin: 0;
-    padding: 0;
-}
-.project-p{
-    margin: 0;
-    padding: 0;
-}
