@@ -85,7 +85,7 @@ body{
 /* intro layout */
 
 .introduction{
-    justify-content: end;
+    justify-content: start;
 }
 
  .aboutme{
@@ -172,12 +172,18 @@ body{
 
 
     .img-pj{
-        margin: 1em 1em 1em 3.5em;
+        width: 100%;
+        margin:0 auto;
     }
     .photo{
+        width: 100%;
+        text-align: center;
         margin: 0 auto;
     }
-    
+    .my-info{
+        text-align: justify;
+        margin: 0 auto;
+    }
 }
 
 
