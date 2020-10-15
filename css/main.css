@@ -44,15 +44,18 @@ body{
 
 /* resume button */
 
-.resume{
+.resume {
     margin:1em 1em 0 1em;
     padding: .5em;
     border: 3px solid var(--main-color);
     font-size: 16px;
     font-weight: 700;
-    color:var(--main-color);
     border-radius: 10px;
     transition: all 500ms ;
+}
+.resume a{
+    text-decoration: none;
+    color:var(--main-color);
 }
 
 .resume:hover{
@@ -118,6 +121,16 @@ body{
 .photo span{
     color: var(--main-color);
     margin-left: 2em;
+}
+
+.basic-details a{
+    text-decoration: none;
+    color: var(--font-st);
+}
+
+
+.basic-details a:hover{
+    text-decoration: underline;
 }
 
 .img-pj{
@@ -473,7 +486,7 @@ footer ul li a{
     margin-top: 1em;
 }
 
-@media (max-width:700px){
+@media (max-width:800px){
     .footer-section-container{
         flex-direction: column;
     }
