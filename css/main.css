@@ -120,11 +120,6 @@ body{
     margin-left: 2em;
 }
 
-.basic{
-    text-align: center;
-    margin-top: -.8em ;
-}
-
 .img-pj{
     max-width: 12rem;
     height: 12rem;
@@ -170,10 +165,6 @@ body{
     white-space: nowrap;
 }
 
-.basic{
-    white-space:wrap;
-}
-
 @media (max-width:700px){
     .d-flex{
         flex-direction: column;
@@ -192,11 +183,7 @@ body{
     .my-info{
         width: 100%;
         text-align: justify;
-        margin: 0 0 0 2em;
-    }
-    .introduction{
-        justify-content: center;
-        margin: 0;
+        margin: 0 0 0 -1.5em ;
     }
 }
 
