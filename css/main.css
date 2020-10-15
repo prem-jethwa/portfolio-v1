@@ -347,7 +347,7 @@ body{
 }
 
 #btn-svg{
-    height: 2em;
+    height: 3em;
     transform: rotate(0deg);
     transition: 500ms ease;
 }
