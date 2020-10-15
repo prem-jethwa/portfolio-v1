@@ -593,6 +593,7 @@ footer ul li a{
     grid-column: span 1;
     border: 3px solid var(--bg-rd);
     border-radius: 5px;
+    height: 180px;
 }
 .img-overlay{
     margin: 0 auto;
