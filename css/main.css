@@ -181,6 +181,7 @@ body{
         margin: 0 auto;
     }
     .my-info{
+        width: 100%;
         text-align: justify;
         margin: 0 auto;
     }
