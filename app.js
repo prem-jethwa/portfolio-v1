@@ -40,3 +40,19 @@ projectBtn.addEventListener('click', showAll);
 
 // projectBtn.addEventListener('click', showAll);
 
+// theme changer
+
+const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+const body = document.body
+
+
+function switchTheme(e) {
+    if (e.target.checked) {
+        body.classList.replace("dark", "light")
+    }
+    else {
+        body.classList.replace("light", "dark")
+    }    
+}
+
+toggleSwitch.addEventListener('change', switchTheme, false);
