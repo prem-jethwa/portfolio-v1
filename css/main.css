@@ -20,8 +20,8 @@
     --bg:#ffffff;
     --bg-sd: #c9c9c9;
     --font-st:#000000;
-    --bg-rd:#9e9e9e;
-    --lite:#464646;
+    --bg-rd:#535353;
+    --lite:#2b2b2b;
     --font-width:800;
     --font-size :18px;
     --margin : 0;
@@ -119,7 +119,7 @@ body{
 }
 
  .aboutme{
-    color: var(--font-st);
+    color: var(--common-white);
     max-width: 600px;
     margin: 1rem auto;
     width: 95%;
