@@ -543,6 +543,15 @@ footer ul li a{
         margin:2em 0;
         text-align: center;
     }
+    .flex{
+        flex-direction: column;
+    }
+    .fiverr-main{
+        margin: 0;
+    }
+    .linkedin-main {
+        margin: 2em auto;
+    }
 }
 
 .contact span{
