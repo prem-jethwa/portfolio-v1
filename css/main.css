@@ -806,6 +806,7 @@ footer ul li a{
     background-color: #aaaaaa;
   }
   input:checked + .slider:before {
+    background: #000000;
     background:url(../svg/moon.svg);
   }
 
