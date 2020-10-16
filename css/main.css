@@ -470,17 +470,24 @@ footer ul li a{
 }
 
 .footer-section2{
+    max-width: 250px;
+    width: 100%;
     margin: 1em auto;
 }
 
-.grid{
-    max-width: 250px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
-    grid-auto-flow: dense;
-    margin-top: .5em;
-    justify-content: center;
-    align-items: center;
+.flex{
+    max-width: 350px;
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit,minmax(120px,1fr)); */
+    /* grid-template-columns: 1fr 1fr;
+    margin-top: .5em; */
+    justify-content: space-between;
+}
+#linkedin,#fiverr{
+    padding: .5em;
+}
+.linkedin-main ,.fiverr-main{
+    margin: 2em 0;
 }
 
 .footer-section1 h2 ,.footer-section2 h2{
@@ -521,6 +528,7 @@ footer ul li a{
     width: 95%;
     margin-top: 1em;
     text-align: center;
+    margin: 0;
 }
 
 @media (max-width:800px){
