@@ -803,10 +803,10 @@ footer ul li a{
   }
   
   input:checked + .slider {
-    background-color: #aaaaaa;
+    background-color: #363636;
   }
   input:checked + .slider::before{
-    background: #000000;
+    background: #ffffff;
   }
 
   
