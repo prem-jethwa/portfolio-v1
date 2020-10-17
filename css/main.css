@@ -518,10 +518,7 @@ footer ul li a{
     text-decoration: underline;
 }
 
-.contact{
-    max-width: 255px;
-    margin-top: 1em;
-}
+
 
 .footer-section1 a {
     padding: .3em .5em;
@@ -561,6 +558,15 @@ footer ul li a{
 
 .contact span{
     color: var(--main-color);
+}
+
+.contact{
+    text-align: center;
+    max-width: 255px;
+    margin-top: 1.5em;
+}
+.contact a{
+    margin-top: 1em;
 }
 
 /* hover effect on job sites */
