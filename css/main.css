@@ -223,7 +223,6 @@ body{
     }
     .my-info{
         width: 100%;
-        text-align: justify;
         margin: 0 0 0 0;
     }
     /* .basic-details{
@@ -267,7 +266,7 @@ body{
 }
 
 .project-img:hover ,.project-link{
-    filter: grayscale(0);
+    filter: brightness(1);
 }
 
 
@@ -340,6 +339,12 @@ body{
         background: rgba(0, 0, 0, 0.6);
     }
 
+}
+
+@media (max-width:500px){
+    .project-img{
+        height: 230px;
+    }
 }
 
 /* project 2nd layout */
