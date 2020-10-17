@@ -226,9 +226,9 @@ body{
         text-align: justify;
         margin: 0 0 0 0;
     }
-    .basic-details{
+    /* .basic-details{
         white-space: nowrap;
-    }
+    } */
 }
 
 
@@ -705,7 +705,7 @@ footer ul li a{
     border: 2px solid var(--main-color);
     padding: .2em .5em;
     text-decoration: none;
-    color: var(--font-st);
+    color: var(--common-white);
     margin: .5em 0;
 }
 .img-link:hover{
@@ -748,7 +748,8 @@ footer ul li a{
        display: none;
     }
     .img-link{
-       width: 100px;
+       max-width: 100px;
+       font-size: 14px;
     }
 }
 
