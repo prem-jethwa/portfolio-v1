@@ -1,12 +1,30 @@
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-:root{
-    --common-white:rgb(255, 255, 255);
+    /* font-family: 'Josefin Sans', sans-serif; */
+    /* font-family: 'Press Start 2P', cursive; */
+    /* font-family: 'Righteous', cursive; */
 }
 
+:root{
+    --common-white:rgb(255, 255, 255);
+    --font-size :16px;
+    --main-font : 'Josefin Sans', sans-serif;
+    --nd-font:'Righteous', cursive;
+}
+
+  /* for font size changes when view port changes */
+
+@media (min-width:800px){
+    :root{
+        --font-size :20px;
+    }
+}
+
+/* before the theme is applied this root was created */
 /* :root{
     --main-color : #ff6600;
     --bg:#121416;
@@ -23,10 +41,14 @@
     --bg-rd:#535353;
     --lite:#2b2b2b;
     --font-width:800;
-    --font-size :18px;
-    --margin : 0;
     --for-light:#fceee5;
 }
+/* 
+@media (max-width:600px){
+    .light{
+        --font-size :20px;
+    }
+} */
 
 .dark{
     --main-color : #ff6600;
@@ -40,7 +62,10 @@
 body{
     background:var(--bg);
     font-weight:var(--font-width) ;
+    font-family: var(--main-font);
 }
+
+
 
 
 .container{
@@ -65,6 +90,7 @@ body{
     text-decoration: underline var(--main-color);
     color: var(--font-st);
     margin: 2em 0 1em 0;
+    font-family: var(--main-font);
 }
 /* resume button */
 
@@ -119,6 +145,12 @@ body{
 }
 
  .aboutme{
+    background: var(--bg-rd);
+    padding: 1em;
+    margin: .5em 0 1em .5em;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 7px;
+
     color: var(--common-white);
     max-width: 600px;
     margin: 1rem auto;
@@ -134,13 +166,13 @@ body{
     font-size: var(--font-size);
 }
 
-.aboutme{
+/* .aboutme{
     background: var(--bg-rd);
     padding: 1em;
     margin: .5em 0 1em .5em;
     box-shadow: 2px 2px 4px black;
     border-radius: 7px;
-}
+} */
 
 .photo{
     line-height: 2rem;
@@ -330,7 +362,7 @@ body{
         max-width: 400px;
         width: 100%;
         margin: 0 auto;
-        filter:brightness(80%);
+        filter:brightness(50%);
     }
     .align-right{
         text-align: left;
@@ -833,4 +865,8 @@ footer ul li a{
   .slider.round:before {
     border-radius: 50%;
   }
+
+.project-p{
+    /* font-family: var(--nd-font);  */
+}
   
