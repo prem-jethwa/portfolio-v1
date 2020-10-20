@@ -40,15 +40,8 @@
     --font-st:#000000;
     --bg-rd:#535353;
     --lite:#2b2b2b;
-    --font-width:800;
     --for-light:#fceee5;
 }
-/* 
-@media (max-width:600px){
-    .light{
-        --font-size :20px;
-    }
-} */
 
 .dark{
     --main-color : #ff6600;
@@ -867,6 +860,6 @@ footer ul li a{
   }
 
 .project-p{
-    /* font-family: var(--nd-font);  */
+    font-family: var(--nd-font); 
 }
   
