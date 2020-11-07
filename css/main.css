@@ -34,13 +34,14 @@
     --lite:#949494;
 } */
 .light{
-    --main-color : #ff6600;
+    --main-color : #f36100;
     --bg:#ffffff;
     --bg-sd: #c9c9c9;
     --font-st:#000000;
-    --bg-rd:#535353;
+    --bg-rd:#dfdfdf;
     --lite:#2b2b2b;
     --for-light:#fceee5;
+    --main-dark : #c04d00;
 }
 
 .dark{
@@ -144,7 +145,7 @@ body{
     box-shadow: 2px 2px 4px black;
     border-radius: 7px;
 
-    color: var(--common-white);
+    color: var(--font-st);
     max-width: 600px;
     margin: 1rem auto;
     width: 95%;
@@ -257,10 +258,12 @@ body{
 
 
 /***** project section ******/
+.for-bg-project{
+    background: var(--for-light);
+}
 
 .project{
     color: var(--font-st);
-    background-color: var(--for-light);
     padding: 1rem;
     font-size: var(--font-size);
 }
